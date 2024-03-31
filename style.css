@@ -10,6 +10,10 @@
     --light-grayish-blue: hsl(210, 46%, 95%);
 }
 
+#shareMenu button {
+    display: none;
+}
+
 img {
     width: 100%;
 }
@@ -157,7 +161,7 @@ article p {
     transform: translate(50%, -50%);
 }
 
-@media screen and (min-width:375px) {
+@media screen and (max-width:375px) {
     .triangle {
         display: none;
     }
@@ -209,6 +213,7 @@ article p {
     }
 
     #shareMenu button {
+        display: block;
         background-color: var(--grayish-blue);
     }
 
